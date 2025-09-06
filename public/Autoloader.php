@@ -11,9 +11,9 @@ class Autoloader
 
     static function autoloadModel($class)
     {
-        #require the models classes
+        #require the classes
         $file = '../' . $class . '.php';
-    //    var_dump($file);
+    //    var_dump($file) for check route;
         if (file_exists($file))
             require $file;
     }
