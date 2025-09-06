@@ -10,7 +10,6 @@ use model\MaClasse as mc;
 use controller\MaClasse as mcc;
 
 echo 'bonjour';
-
 echo '<br>';
 $mod = new mc();
 echo '<br>';
